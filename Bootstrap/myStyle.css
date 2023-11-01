@@ -1,16 +1,9 @@
-.row {
-	justify-content: space-between;
-
-
-}
-
-
 p{
-	color:gainsboro;
+	color:black;
 	font-family:Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;	
 }
 body{
-	background:gray;
+	background:rgb(203, 211, 215);
 }
 
 .title{
@@ -30,8 +23,7 @@ h1{
 	text-align: center;
 }
 h2 {
-color: blanchedalmond;
-font-weight: bold;
+color: black;
 text-align: center;
 
 }
@@ -91,7 +83,7 @@ display:flex;
 	.Waters2 {
 
 		text-align: center;
-		justify-content: flex-end;
+		
 	}
 
 .Additional{
@@ -148,5 +140,11 @@ text-align: center;
 .InfoContainer{
 display: flex;
 flex-direction: column;
+
+}
+
+.row {
+display: flex;
+justify-content: space-evenly;
 
 }
